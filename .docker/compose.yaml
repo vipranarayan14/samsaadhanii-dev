@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  app:
+    image: samsaadhanii-dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    ports:
+      - 5445:80
+    volumes:
+      - ../:/app/scl/
