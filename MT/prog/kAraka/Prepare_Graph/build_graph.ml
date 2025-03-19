@@ -2,7 +2,6 @@
  * Sanjeev Panchal (2015-2020) *)
 
 
-open Paths;
 open Scanf;
 
 open Pada_structure; 
